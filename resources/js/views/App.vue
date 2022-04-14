@@ -1,14 +1,16 @@
 <template>
     <div>
-        <h1>Work In Progress</h1>
-        <h3>Torna a trovarci</h3>
+        <Main></Main>
     </div>
 </template>
 
 <script>
+import Main from '../components/Main.vue';
 
 export default {
     name: "App",
-    components: { }
+    components: {
+        Main
+    }
 }
 </script>
